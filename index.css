@@ -1,0 +1,51 @@
+* {
+    background-color: rgb(39, 101, 173);
+}
+header {
+    background-color: rgb(236, 232, 232);
+    text-align: center;
+    color: black;
+    padding: 35px;
+    font-size: 50px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+
+}
+.PlayerCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Overall-Div {
+    display: flex;
+}
+img {
+    box-shadow: 5px, 5px, 5px, white;
+    height: 200px;
+    width: 300px;
+}
+h2 {
+    color: white;
+    padding: 40px;
+}
+h3 {
+    color: rgb(242, 237, 237);
+    padding: 10px;
+}
+.Btn {
+    background-color: white;
+    margin: 10px;
+}
+.avgBtn {
+    padding-left: 305px;
+    background-color: rgb(236, 232, 232);
+    font-size: medium;
+    color: blue;
+}

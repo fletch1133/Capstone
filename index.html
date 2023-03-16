@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Player Ratings</title>
+    <link rel="stylesheet" href="/css">
+    
+</head>
+<body>
+    <header>Rate a NFL Player
+    <a href="/secondhtml" class= "avgBtn" >See the Average</a></header>
+    <main>
+        <div>
+        <div>
+        <div class= "PlayerCard">
+    <img src="https://www.nj.com/resizer/vQc-UupszDQDCts0GRHBqkQJcZY=/arc-anglerfish-arc2-prod-advancelocal/public/XHIVJRIMWFBURGZDEJMUU2WCFA.jpg">
+    <h2>Saquon Barkley</h2>
+    <h3>New York Giants</h3>
+    <h3>Running Back</h3>
+    <h3>6'0", 234 pounds</h3>
+    <h3 id ="sBOverall"> 92 Overall</h3>
+    <button id="myBtn" class ="Btn" type="button">+</button>
+    <button id="myBtnMinus" class ="Btn" type="button">-</button>
+    <script>
+        let sBOverall = document.getElementById('sBOverall')
+        let count = 92
+        const myBtn = document.getElementById("myBtn");
+        myBtn.addEventListener("click", function(){
+            if(count < 100){count ++}
+            sBOverall.textContent= `${count} Overall`
+        })
+        const myBtnMinus = document.getElementById("myBtnMinus");
+        myBtnMinus.addEventListener("click", function(){
+            count --
+            sBOverall.textContent= `${count} Overall`
+        })
+    </script>
+   
+
+</div>
+    <div class = "PlayerCard">
+<img src="https://www.kansascity.com/latest-news/w6a2fa/picture246244990/alternates/FREE_1140/KCM_ChiefsPats_100520_tll_0%20(3)">
+    <h2>Patrick Mahomes</h2>
+    <h3>Kansas City Chiefs</h3>
+    <h3>Quarterback</h3>
+    <h3>6'2", 225 pounds</h3>
+    <h3 id ="pMOverall"> 92 Overall</h3>
+    <button id="pMBtn" class = "Btn" type="button">+</button>
+    <button id="myPmBtnMinus" class ="Btn" type="button">-</button>
+    <script>
+    let pMOverall = document.getElementById('pMOverall')
+        let countPm = 92
+        const pMBtn = document.getElementById("pMBtn");
+        pMBtn.addEventListener("click", function(){
+            count ++
+            pMOverall.textContent= `${count} Overall`
+        })
+        const myPmBtnMinus = document.getElementById("myPmBtnMinus");
+        myPmBtnMinus.addEventListener("click", function(){
+            count --
+            pMOverall.textContent= `${count} Overall`
+        })
+    </script>
+</div>
+</div>
+<div>
+<div class= "PlayerCard">
+    <img src="https://www.abc27.com/wp-content/uploads/sites/55/2023/02/AP23020779650573.jpg?w=2560&h=1440&crop=1">
+    <h2>Micah Parsons</h2>
+    <h3>Dallas Cowboys</h3>
+    <h3>Outside Linebacker</h3>
+    <h3>6'3", 245 pounds</h3>
+    <h3 id = "mPOverall">92 Overall</h3>
+    <button id="mPBtn" class = "Btn" type="button">+</button>
+    <button id="myMpBtnMinus" class ="Btn" type="button">-</button>
+    <script>
+        let mPOverall = document.getElementById('mPOverall')
+        let countmP = 92
+        const mPBtn = document.getElementById("mPBtn");
+        mPBtn.addEventListener("click", function(){
+            count ++
+            mPOverall.textContent= `${count} Overall`
+        })
+        const myMpBtnMinus = document.getElementById("myMpBtnMinus");
+        myMpBtnMinus.addEventListener("click", function(){
+            count --
+            mPOverall.textContent= `${count} Overall`
+        })
+        </script>
+</div>
+<div class= "PlayerCard">
+    <img src="https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,f_auto,h_1067,w_1600/https%3A%2F%2Ffansided.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2023%2F03%2F1454911761.jpeg">
+    <h2>Derrick Henry</h2>
+    <h3>Tennessee Titans</h3>
+    <h3>Running Back</h3>
+    <h3>6'3", 247 pounds</h3>
+    <h3 id = "dHOverall">92 Overall</h3>
+    <button id="dHBtn" class = "Btn" type="button">+</button>
+    <button id="myDhBtnMinus" class ="Btn" type="button">-</button>
+</div>
+<script>
+    let dHOverall = document.getElementById('dHOverall')
+    let countdH = 92
+    const dHBtn = document.getElementById("dHBtn");
+    dHBtn.addEventListener("click", function(){
+        count ++
+        dHOverall.textContent= `${count} Overall`
+    })
+    const myDhBtnMinus = document.getElementById("myDhBtnMinus");
+    myDhBtnMinus.addEventListener("click", function(){
+        count --
+        dHOverall.textContent= `${count} Overall`
+    })
+    </script>
+</div>
+</div>
+<div>
+<div class= "PlayerCard">
+    <img src="https://media.cnn.com/api/v1/images/stellar/prod/221006092700-02-joe-burrow.jpg?c=original">
+    <h2>Joe Burrow</h2>
+    <h3>Cincinnati Bengals</h3>
+    <h3>Quarterback</h3>
+    <h3>6'4", 215 pounds</h3>
+    <h3 id = "jBOverall">92 Overall</h3>
+    <button id="jBBtn" class = "Btn" type="button">+</button>
+    <button id="myJbBtnMinus" class ="Btn" type="button">-</button>
+    <script>
+        let jBOverall = document.getElementById('jBOverall')
+        let countJb = 92
+        const jBBtn = document.getElementById("jBBtn");
+        jBBtn.addEventListener("click", function(){
+            count ++
+            jBOverall.textContent= `${count} Overall`
+        })
+        const myJbBtnMinus = document.getElementById("myJbBtnMinus");
+        myJbBtnMinus.addEventListener("click", function(){
+            count --
+            jBOverall.textContent= `${count} Overall`
+        })
+        </script>
+</div>
+<div class= "PlayerCard">
+    <img src="https://sactownsports.com/wp-content/uploads/2023/02/GettyImages-1460594431-scaled.jpg">
+    <h2>Nick Bosa</h2>
+    <h3>San Francisco 49ers</h3>
+    <h3>Defensive End</h3>
+    <h3>6'4", 267 pounds</h3>
+    <h3 id = "nBOverall">92 Overall</h3>
+    <button id="nBBtn" class = "Btn" type="button">+</button>
+    <button id="myNbBtnMinus" class ="Btn" type="button">-</button>
+
+    <script>
+        let nBOverall = document.getElementById('nBOverall')
+        let countNb = 92
+        const nBBtn = document.getElementById("nBBtn");
+        nBBtn.addEventListener("click", function(){
+            count ++
+            nBOverall.textContent= `${count} Overall`
+        })
+        const myNbBtnMinus = document.getElementById("myNbBtnMinus");
+        myNbBtnMinus.addEventListener("click", function(){
+            count --
+            nBOverall.textContent= `${count} Overall`
+        })
+        </script>
+</div>
+<div>
+<div class= "PlayerCard">
+    <img src="https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Fnflspinzone.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2018%2F08%2F1287114303-850x560.jpeg">
+    <h2>Justin Jefferson</h2>
+    <h3>Minnesota Vikings</h3>
+    <h3>Wide Receiver</h3>
+    <h3>6'1", 203 pounds</h3>
+    <h3 id ="jJOverall"> 92 Overall</h3>
+    <button id="jJBtn" class ="Btn" type="button">+</button>
+    <button id="myJjBtnMinus" class ="Btn" type="button">-</button>
+    <script>
+        let jJOverall = document.getElementById('jJOverall')
+        let countJj = 92
+        const jJBtn = document.getElementById("jJBtn");
+        jJBtn.addEventListener("click", function(){
+            count ++
+            jJOverall.textContent= `${count} Overall`
+        })
+        const myJjBtnMinus = document.getElementById("myJjBtnMinus");
+        myJjBtnMinus.addEventListener("click", function(){
+            count --
+            jJOverall.textContent= `${count} Overall`
+        })
+        </script>
+       
+    </div>
+</div>
+<div class= "PlayerCard">
+    <img src="https://cdn.vox-cdn.com/thumbor/ad5Z9D8Lu_obsdrrSgcmgwS0SvQ=/0x0:7746x5164/1200x800/filters:focal(3254x1963:4492x3201)/cdn.vox-cdn.com/uploads/chorus_image/image/72047353/1456642922.0.jpg">
+    <h2>Aaron Rodgers</h2>
+    <h3>Green Bay Packers</h3>
+    <h3>Quarterback</h3>
+    <h3>6'2", 225 pounds</h3>
+    <h3 id = "aROverall">92 Overall</h3>
+    <button id="aRBtn" class = "Btn" type="button">+</button>
+    <button id="myArBtnMinus" class ="Btn" type="button">-</button>
+    <script src="/js"></script>
+    <script>
+        let aROverall = document.getElementById('aROverall')
+        let countAr = 92
+        const aRBtn = document.getElementById("aRBtn");
+        aRBtn.addEventListener("click", function(){
+            count ++
+            aROverall.textContent= `${count} Overall`
+        })
+        const myArBtnMinus = document.getElementById("myArBtnMinus");
+        myArBtnMinus.addEventListener("click", function(){
+            count --
+            aROverall.textContent= `${count} Overall`
+        })
+        </script>
+        </div>
+</div>
+</div>
+</main>
+</body>
+</html>
